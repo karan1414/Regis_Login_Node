@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Login with Authentication</title>
+
+<!--//web-fonts-->
+</head>
+<body>
+	<h1>Test Authentication </h1>
+	<!-- main -->
+
+			<div class="signin-form profile">
+				<h3>Register</h3>
+
+				<div class="login-form">
+					<form action="/regis/register_user" method="post">
+						<input type="text" name="fullname" placeholder="fullname" required=""><br>
+
+						<input type="text" name="email" placeholder="email" required=""><br>
+
+						<input type="password" name="password" placeholder="Password" required=""><br>
+						<!-- <input type="password" name="passwordConf" placeholder="Confirm Password" required=""><br> -->
+						<input type="submit" value="REGISTER">
+					</form>
+				</div>
+				<p><a href="#"> By clicking register, I agree to your terms</a></p>
+			</div>
+
+		<!--//signin-form-->
+	</div>
+
+</body>
+</html>

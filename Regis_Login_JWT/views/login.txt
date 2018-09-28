@@ -1,0 +1,27 @@
+
+<html>
+<head>
+<title>Register Login with Authentication</title>
+
+<!--//web-fonts-->
+</head>
+<body>
+	<h1>Test Authentication </h1>
+
+<!--signin-form-->
+
+
+    <h3>Login</h3>
+
+    <div class="login-form">
+      <form action="/regis/sign_in" method="post">
+        <input type="text" name="email" placeholder="E-mail" required=""><br>
+        <input type="password" name="password" placeholder="Password" required=""><br>
+
+          <input type="submit" value="LOGIN NOW">
+
+      </form>
+    </div>
+
+  </body>
+  </html>
